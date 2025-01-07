@@ -5,6 +5,6 @@ The two notebooks in this repository perform distinct tasks of Time Series Analy
 
 The first of them attempts to detect anomalies in the multiple time-series contained in the data, evaluating if any high anomaly score is something affecting the city as a whole or if it's just an isolated case.
 
-The second contains a novel strategy of forecasting. It uses 11 stations to forecast the data of the 12th (what we call the Centerpoint), giving weights to the predicted values of each station according to their distance to the Centerpoint. The results are promising, being only slightly inferior to a forecast using Centerpoint's own data, meaning it's an effective strategy whenever it doesn't exist.
+The second contains a novel strategy of forecasting. It uses 11 stations to forecast the data of the 12th (what we call the Centerpoint), giving weights to the predictions of each station according to their distance to the Centerpoint. The results are promising.
 
 NOTE: Both notebooks are standalone. As long as you have the required libraries there's no need to manually download the data.
